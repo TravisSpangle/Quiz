@@ -34,6 +34,34 @@
 	//Return the address of the new object
 	return self;
 }
+
+- (IBAction)showQuestion:(id)sender
+{
+	//Setp to the next question - just to keep things simple
+	//to focus on the iOS elements of the programming, 
+	//we will start with the "second" quesion in the list.
+	
+	currentQuestionIndex++;
+	
+	//Am I past the last question?
+	if (currentQuestionIndex == [questions count]) {
+		//Go back to the first question
+		currentQuestionIndex = 0;
+	}
+	
+	//Get the string at that index in the questions array
+	NSString *question = [questions objectAtIndex:currentQuestionIndex];
+	
+	//Log the string to the console
+	NSLog(@"displaying question: %@", question);
+	
+	//Display the string in teh question field
+	[questionField setText:question];
+	
+	//Clear the answer field
+	[answerField setText:@"??"];
+}
+	
 	
 #pragma mark -
 #pragma mark Application lifecycle
