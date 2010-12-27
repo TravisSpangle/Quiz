@@ -15,8 +15,30 @@
 			53CEF00B12C8F8F9008763DF /* Quiz */,
 		);
 		perUserDictionary = {
-			PBXPerProjectTemplateStateSaveDate = 315160825;
-			PBXWorkspaceStateSaveDate = 315160825;
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					833,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 315161316;
+			PBXWorkspaceStateSaveDate = 315161316;
 		};
 		sourceControlManager = 53CEF01B12C8F919008763DF /* Source Control */;
 		userBuildSettings = {
