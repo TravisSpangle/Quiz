@@ -61,6 +61,15 @@
 	//Clear the answer field
 	[answerField setText:@"??"];
 }
+
+- (IBAction)showAnswer:(id)sender
+{
+	//What is the answer to the current question?
+	NSString *answer = [answers objectAtIndex:currentQuestionIndex];
+	
+	// Display it in the answer field
+	[answerField setText:answer];
+}
 	
 	
 #pragma mark -
